@@ -22,22 +22,22 @@ public class ArraySort
         }
         
         // SORT INPUT BY ASCENDING INITIALLY
-        for(int indexL=0;indexL<inputNumbers.length;indexL++) {
+        for(int a=0;a<inputNumbers.length;a++) {
            
         	int index=0;
             
-        	for(int indexR=0;indexR<inputNumbers.length;indexR++) {
+        	for(int b=0;b<inputNumbers.length;b++) {
                
-        		if(inputNumbers[indexL]>inputNumbers[indexR]) {
+        		if(inputNumbers[b]>inputNumbers[b]) {
         			index++;
                 }
             }
 
-        	while (orderedInput[index] == inputNumbers[indexL]) {
+        	while (orderedInput[index] == inputNumbers[a]) {
         		index++;
         	}
 
-        	orderedInput[index] = inputNumbers[indexL];
+        	orderedInput[index] = inputNumbers[a];
         }
 
         // ASK FOR SORT OPTION
